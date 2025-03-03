@@ -53,7 +53,6 @@ class BookDetailActivity : AppCompatActivity() {
             movieName.text = movie.BookName.ifEmpty { "Unnamed Movie" }
             movieRating.text = "Rating: ${movie.Rating ?: 0}"
             releaseYear.text = movie.releaseYear?.toString() ?: "N/A"
-            duration.text = movie.duration.ifEmpty { "N/A" }
             ageRating.text = movie.ageRating.ifEmpty { "N/A" }
             movieDescription.text = movie.description.ifEmpty { "No description available" }
 

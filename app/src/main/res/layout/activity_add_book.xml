@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#808000"
     tools:context=".ui.activity.AddBookActivity">
 
     <LinearLayout
@@ -25,7 +26,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Add New Movie"
+            android:text="Add To Read Book"
             android:textSize="24sp"
             android:textStyle="bold"
             android:gravity="center"
@@ -49,7 +50,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <EditText
-                android:hint="Enter Movie Name"
+                android:hint="Enter Book Name"
                 android:id="@+id/editProductName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -63,7 +64,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <EditText
-                android:hint="Enter Movie Rating (0.0 - 10.0)"
+                android:hint="Enter Books Rating (0.0 - 10.0)"
                 android:id="@+id/editProductPrice"
                 android:inputType="numberDecimal"
                 android:layout_width="match_parent"
@@ -99,12 +100,12 @@
                 android:layout_marginStart="4dp"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-                <EditText
-                    android:hint="Duration (e.g. 2h 15m)"
-                    android:id="@+id/editMovieDuration"
-                    android:inputType="text"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+<!--                <EditText-->
+<!--                    android:hint="Duration (e.g. 2h 15m)"-->
+<!--                    android:id="@+id/editMovieDuration"-->
+<!--                    android:inputType="text"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content" />-->
             </com.google.android.material.textfield.TextInputLayout>
         </LinearLayout>
 
@@ -150,7 +151,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <EditText
-                android:hint="Enter Movie Description"
+                android:hint="Enter Book Description"
                 android:id="@+id/editProductDesc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -165,12 +166,12 @@
             android:layout_marginBottom="24dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-            <EditText
-                android:hint="Trailer URL (YouTube or official source)"
-                android:id="@+id/editTrailerUrl"
-                android:inputType="textUri"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+<!--            <EditText-->
+<!--                android:hint="Trailer URL (YouTube or official source)"-->
+<!--                android:id="@+id/editTrailerUrl"-->
+<!--                android:inputType="textUri"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
@@ -180,6 +181,6 @@
             android:layout_gravity="center"
             android:padding="12dp"
             android:textAllCaps="false"
-            android:text="Add Movie" />
+            android:text="To Read"/>
     </LinearLayout>
 </ScrollView>

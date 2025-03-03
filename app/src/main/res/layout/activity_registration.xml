@@ -7,7 +7,7 @@
     android:id="@+id/main"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="#2B2F3A"
+    android:background="#808000"
     android:gravity="center">
 
     <!-- Title -->
@@ -28,11 +28,13 @@
         android:id="@+id/tvSignInTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome"
+        android:text="Please enter your Details"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="#FF4E4E"
-        android:layout_marginBottom="24dp" />
+        android:textColor="#FFFDD0"
+        android:layout_marginBottom="24dp"
+        />
+
 
     <!-- Email Input -->
     <EditText
@@ -44,7 +46,8 @@
         android:padding="12dp"
         android:layout_marginBottom="16dp"
         android:textColor="@color/black"
-        android:background="@android:drawable/edit_text"/>
+        android:background="@drawable/rounded_corner"/>
+
     <EditText
         android:id="@+id/email"
         android:layout_width="match_parent"
@@ -55,7 +58,7 @@
         android:textColor="@color/black"
 
         android:layout_marginBottom="16dp"
-        android:background="@android:drawable/edit_text"/>
+        android:background="@drawable/rounded_corner"/>
 
     <EditText
         android:id="@+id/phoneNumber"
@@ -67,7 +70,7 @@
         android:textColor="@color/black"
 
         android:layout_marginBottom="16dp"
-        android:background="@android:drawable/edit_text" />
+        android:background="@drawable/rounded_corner"/>
 
     <EditText
         android:id="@+id/Password"
@@ -79,7 +82,7 @@
 
         android:padding="12dp"
         android:layout_marginBottom="16dp"
-        android:background="@android:drawable/edit_text" />
+        android:background="@drawable/rounded_corner"/>
     <!-- Password Input -->
     <EditText
         android:id="@+id/ConformPassword"
@@ -91,17 +94,17 @@
         android:textColor="@color/black"
 
         android:layout_marginBottom="16dp"
-        android:background="@android:drawable/edit_text" />
+        android:background="@drawable/rounded_corner"/>
 
     <!-- Sign In Button -->
     <Button
         android:id="@+id/btnSignIn"
-        android:layout_width="match_parent"
+        android:layout_width="186dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/black"
         android:text="Sign In"
-        android:textColor="@color/black"
-        android:backgroundTint="#FF5252"
-        android:layout_marginBottom="12dp" />
+        android:textColor="@color/white" />
 
 
 

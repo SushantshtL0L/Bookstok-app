@@ -88,8 +88,6 @@ class AddBookActivity : AppCompatActivity() {
         val productName = binding.editProductName.text.toString()
         val productPrice = binding.editProductPrice.text.toString().toFloatOrNull() ?: 0.0f
         val productDesc = binding.editProductDesc.text.toString()
-        val trailerUrl = binding.editTrailerUrl.text.toString()
-        val  duration  = binding.editMovieDuration.text.toString()
         val ageRating = binding.editAgeRating.text.toString()
         val releaseyear = binding.editMovieYear.text.toString()
 
@@ -98,9 +96,6 @@ class AddBookActivity : AppCompatActivity() {
                 BookId = "", // Assuming ID is generated elsewhere
                 BookName = productName,
                 description = productDesc,
-                Rating = productPrice,
-                trailerUrl = trailerUrl,
-                duration = duration,
                 ageRating = ageRating,
                 releaseYear = releaseyear,
                 imageUrl = url

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#808000"
     tools:context=".ui.fragment.SettingFragment">
 
     <!-- Profile Info Section -->
@@ -12,19 +13,21 @@
         android:layout_margin="10dp"
         app:cardCornerRadius="10dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#808000">
         <LinearLayout
             android:padding="15dp"
             android:layout_width="match_parent"
             android:orientation="vertical"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="#808000">
             <ImageView
                 android:id="@+id/profile_image"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center_horizontal"
                 android:scaleType="centerCrop"
-                android:src="@drawable/peter" />
+                android:src="@drawable/img" />
             <TextView
                 android:id="@+id/profileName"
                 android:text="Full Name"
